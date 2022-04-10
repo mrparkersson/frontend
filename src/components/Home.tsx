@@ -33,8 +33,8 @@ const Home: React.FC = () => {
 
   if (loading) {
     return (
-      <LoadingCenter className="center">
-        <RingItem className="ring"></RingItem>
+      <LoadingCenter>
+        <RingItem></RingItem>
         <SpanItem>Loading...</SpanItem>
       </LoadingCenter>
     );
